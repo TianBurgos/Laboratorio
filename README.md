@@ -5,9 +5,9 @@ Laboratorio - Diseño Biomédico I
 #include <Arduino.h>
 
 // Define los pines de los componentes
-const int PinMotor = 11;      // Pin del motor de corriente continua (DC)
-const int PinPot = A0;       // Pin del potenciómetro
-const int PinsLED[] = {12, 14, 15, 16, 17, 19, 20};  // Pines de los 7 LEDs
+const int PinMotor = 11;                              // Pin del motor de corriente continua (DC)
+const int PinPot = A0;                                // Pin del potenciómetro
+const int PinsLED[] = {12, 14, 15, 16, 17, 19, 20};   // Pines de los 7 LEDs
 
 void setup() {
   // Configura los pines como salidas o entradas
